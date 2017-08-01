@@ -9,7 +9,10 @@ You may use this program in two ways:
 
 ## Notes
 
+*   This program doesn't handle `undefined'.
+*   Probably doesn't support multi-byte.
 *   The `compound' struct isn't very memory-efficient in terms of bytes,
     but I find that you probably won't need a lot of compound for just
     processing normal data. (Or, you could just increase the size macros
     at the top.)
+*   Memory allocation & error handling needs more love.
